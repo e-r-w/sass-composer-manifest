@@ -50,7 +50,7 @@ in your package.json:
 
 ```
 
-where `"locals"` are local files (relative paths) to be `@import`ed. You can specify paths to find locals as well:
+where `"locals"` are local files (paths relative to the manifest) to be `@import`ed. You can specify paths to find locals as well:
 
 ```json
 
