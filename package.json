@@ -1,0 +1,13 @@
+{
+  "name": "sass-composer-manifest",
+  "version": "0.0.1",
+  "dependencies": {
+    "jsonfile": "^2.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
+}
