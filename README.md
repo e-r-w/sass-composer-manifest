@@ -4,6 +4,8 @@ A sass-composer plug-in to `@import` your dependencies from a .json manifest
 
 ## usage
 
+the plug-in will use the `"dependencies"` or `"sc:dependencies"` fields of the manifest to source npm packages, and `"locals"` or `"sc:locals"` for local files.
+
 @ build time, specify the plug in before all others so that the `@import`ed files get your other plug-ins too:
 
 ```js
