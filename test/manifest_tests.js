@@ -11,7 +11,7 @@ describe('manifest npm', function(){
         foo: '^0.0.1'
       }
     });
-    assert.equal(result, '@import "foo"');
+    assert.equal(result, '@import "foo";');
   });
 
   it('should append multiple npm dependencies', function(){
@@ -21,7 +21,7 @@ describe('manifest npm', function(){
         bar: '~0.0.1'
       }
     });
-    assert.equal(result, '@import "foo"\n@import "bar"');
+    assert.equal(result, '@import "foo";\n@import "bar";');
   });
 
 });
